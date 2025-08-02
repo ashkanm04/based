@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   const apiKey = process.env.NEYNAR_API_KEY;
   
   return NextResponse.json({
